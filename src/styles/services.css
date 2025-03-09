@@ -1,0 +1,28 @@
+.section-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #0D0E11;
+  }
+  
+  .services {
+    color: white;
+    padding: 50px;
+  }
+  
+  .services-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px; 
+    padding: 16px;
+    color: white;
+  }
+  
+  .services-icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }

@@ -1,0 +1,61 @@
+@media (max-width: 768px) {
+    .profile-image {
+      width: 100%;
+    }
+  
+    .title {
+      font-size: 5rem;
+    }
+  
+  
+    .icon-container img {
+      width: 2rem;
+    }
+  
+
+  
+    .services-container{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .profile-image {
+      width: 100px;
+      height: 100px;
+  
+    }
+  
+    .title {
+      font-size: 5rem;
+    }
+  
+    .icons {
+      gap: 20px;
+    }
+  
+    .icon-container img {
+      width: 100%;
+    }
+  
+    .arrow img {
+      width: 2rem;
+      height: 2rem;
+    }
+  }
+  
+  /* Responsividade dos cards */
+  @media (max-width: 768px) {
+    .container-projects {
+      grid-template-columns: repeat(2, 1fr); /* 2 colunas em telas menores */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .container-projects {
+      grid-template-columns: 1fr; /* 1 coluna em telas muito pequenas */
+    }
+  }
