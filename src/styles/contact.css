@@ -17,7 +17,14 @@
     color:white;
     margin-bottom: 20px;
   }
-  
+
+  .contact-tittle h2 {
+    font-size: 3rem;
+    color: white;
+    margin-bottom: 20px;
+  }
+
+ 
   .contact {
     display: flex;
     align-items: center;
@@ -34,4 +41,21 @@
       color: white;
       text-decoration: none;
     }
+  }
+
+  .contact img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+
+  .contact:hover {
+    background-color: #5d5f63;
+    transform: scale(1.2);
+    transition: background-color 0.5s ease;
+  }
+
+  .contact:hover img {
+    transform: scale(1.2);
+    transition: transform 0.5s ease;
   }
